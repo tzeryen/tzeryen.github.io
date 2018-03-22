@@ -142,7 +142,7 @@ nav.black ul li a {
 .heading {
     background-image: url("https://c1.staticflickr.com/5/4778/25988067987_7001c14606_o.jpg");
     background-size: cover;
-    width: 1300px;
+    width: 100%;
     margin: 0;
     overflow-x: hidden;
     height: 700px;
@@ -317,7 +317,7 @@ h1{
 
 .contact {
     background-color: rgba(0,0,0,0.1);
-    width: 1300px;
+    width: 100%;
     background: cover;
     height: 600px;
     text-align: center;
