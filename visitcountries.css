@@ -202,8 +202,9 @@ h1{
 
 .canada-main p , .paris-main p , .taiwan-main p , .spain-main p{   
   font-family: Didot, serif;
-  font-size: 20px;
+  font-size: 23px;
   text-align: justify;
+  line-height: 2.0;
    }
 
 .footer {
