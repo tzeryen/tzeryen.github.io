@@ -139,7 +139,7 @@ nav.black ul li a {
   width: 100%;
   background-size: 100% 100%;
   overflow-x: hidden;
-  height: 700px;
+  height: 800px;
   margin-top: -70px;
  
 }
@@ -147,7 +147,7 @@ nav.black ul li a {
 .heading-overlay {
   background-color: rgba(0,0,0,0.3);
   background-size: 100% 100%;
-  height: 700px;
+  height: 800px;
 }
 
 .paris-header {
@@ -156,7 +156,7 @@ nav.black ul li a {
   width: 100%;
   background-size: 100% 100%;
   overflow-x: hidden;
-  height: 700px;
+  height: 800px;
   margin-top: -70px;
   
   }
@@ -167,7 +167,7 @@ nav.black ul li a {
   width: 100%;
   background-size: 100% 100%;
   overflow-x: hidden;
-  height: 700px;
+  height: 800px;
   margin-top: -70px;
   
   }
@@ -178,7 +178,7 @@ nav.black ul li a {
   width: 100%;
   background-size: 100% 100%;
   overflow-x: hidden;
-  height: 700px;
+  height: 800px;
   margin-top: -70px;
   
   }
@@ -202,9 +202,9 @@ h1{
 
 .canada-main p , .paris-main p , .taiwan-main p , .spain-main p{   
   font-family: Didot, serif;
-  font-size: 23px;
+  font-size: 22px;
   text-align: justify;
-  line-height: 2.0;
+  line-height: 1.8;
    }
 
 .footer {
