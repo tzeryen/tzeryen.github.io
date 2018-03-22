@@ -184,10 +184,9 @@ h1{
 
 .about p {
   font-family: Didot, serif;
-  font-size: 18px;
+  font-size: 19px;
   text-align: justify;
-  padding-top: 14px;
-  padding-right: 60px;
+  max-width: 700px;
   line-height: 2.0;
 }
 
