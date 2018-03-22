@@ -137,11 +137,10 @@ nav.black ul li a {
   background-image: url("https://c1.staticflickr.com/5/4797/38902613050_bb18aa2f05_k.jpg");
   background-repeat:no-repeat;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   overflow-x: hidden;
   height: 700px;
-  margin-top: -70px; 
-  object-fit: fill;
+  margin-top: -70px;
  
 }
 
@@ -155,7 +154,7 @@ nav.black ul li a {
   background-image: url("https://c1.staticflickr.com/5/4788/26919585428_accdc82106_o.jpg");
   background-repeat:no-repeat;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   overflow-x: hidden;
   height: 700px;
   margin-top: -70px;
@@ -166,7 +165,7 @@ nav.black ul li a {
   background-image: url("https://c1.staticflickr.com/1/791/39003988950_0838df1564_o.jpg");
   background-repeat:no-repeat;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   overflow-x: hidden;
   height: 700px;
   margin-top: -70px;
@@ -177,7 +176,7 @@ nav.black ul li a {
   background-image: url("https://c1.staticflickr.com/1/787/39017294270_fd978873c2_o.jpg");
   background-repeat:no-repeat;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   overflow-x: hidden;
   height: 700px;
   margin-top: -70px;
@@ -197,8 +196,8 @@ h1{
 }
 
 .canada-main , .paris-main, .taiwan-main , .spain-main { 
-  max-width: 700px;
-  margin: 0 auto 30px;
+  max-width: 660px;
+  margin: 0 auto 40px;
 }
 
 .canada-main p , .paris-main p , .taiwan-main p , .spain-main p{   
