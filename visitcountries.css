@@ -136,7 +136,7 @@ nav.black ul li a {
 .canada-header {
   background-image: url("https://c1.staticflickr.com/5/4797/38902613050_bb18aa2f05_k.jpg");
   background-repeat:no-repeat;
-  width: 1300px;
+  width: 100%;
   background-size: cover;
   overflow-x: hidden;
   height: 700px;
@@ -153,7 +153,7 @@ nav.black ul li a {
 .paris-header {
   background-image: url("https://c1.staticflickr.com/5/4788/26919585428_accdc82106_o.jpg");
   background-repeat:no-repeat;
-  width: 1300px;
+  width: 100%;
   background-size: cover;
   overflow-x: hidden;
   height: 700px;
@@ -164,7 +164,7 @@ nav.black ul li a {
 .taiwan-header {
   background-image: url("https://c1.staticflickr.com/1/791/39003988950_0838df1564_o.jpg");
   background-repeat:no-repeat;
-  width: 1300px;
+  width: 100%;
   background-size: cover;
   overflow-x: hidden;
   height: 700px;
@@ -175,7 +175,7 @@ nav.black ul li a {
 .spain-header {
   background-image: url("https://c1.staticflickr.com/1/787/39017294270_fd978873c2_o.jpg");
   background-repeat:no-repeat;
-  width: 1300px;
+  width: 100%;
   background-size: cover;
   overflow-x: hidden;
   height: 700px;
