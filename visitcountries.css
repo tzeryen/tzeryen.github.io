@@ -141,6 +141,7 @@ nav.black ul li a {
   overflow-x: hidden;
   height: 700px;
   margin-top: -70px; 
+  object-fit: fill;
  
 }
 
