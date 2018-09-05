@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Bellefair:400,500,700');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Bellefair', sans-serif;
+	color: #222;
+}
+
+/*--Navigation--*/
+.navbar {
+	padding: .3rem; /* 1 rem = 16 px */ 
+	
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.nav-link {
+	font-size: 2em !important;
+	font-weight: bold;
+	font-family: 'Tangerine';
+}
+
+
+/*--Dropdown Menu--*/
+
+.dropdown li {
+	color: #000;
+	text-align: left;
+}
+
+.dropdown-menu {
+	background: #F5F5F5;
+	border-top: none;
+	margin-top: 5px;	
+}
+
+.dropdown-header {
+	font-size: 170%;
+	font-weight: bold;
+	font-family: 'Tangerine';
+	
+}
+
+.dropdown-item a {
+	font-size: 125%;
+	color: grey;
+}
+
+.dropdown-item li:hover {
+	background: rgba(0,0,0,0.2);
+
+}
+
+
+.dropdown-item a:hover {
+	text-decoration: none;
+	color: #EE7884;
+}
+
+
+/*Back Button*/
+.back-button {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.back-button h5 {
+	color: grey;
+}
+
+.back-button h5:hover {
+	color: #000;
+}
+/*--Heading--*/
+.heading {
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.heading h1 {
+	font-family: 'Bellefair';
+	text-transform: uppercase;
+	font-size: 300%;
+}
+
+.heading hr {	
+	width: 60%;
+}
+
+.heading h2 {
+	font-family: 'Tangerine';
+	font-size: 250%;
+	text-shadow: 1px 1px 10px #C0C0C0;
+}
+.heading p {
+	text-align: center;
+	font-size: 150%;
+	padding: 50px;
+}
+
+
+
+/*--Responsive Images--*/
+.photos {
+	padding: 50px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+/*Footer*/
+.footer {
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 12px;
+	padding: 0.1rem;
+	background: rgba(0,0,0,0.45);
+}
+
+.footer p {
+	color: #AEB6BF;
+	margin-top: 10px;
+	margin-right: 10px;
+}
