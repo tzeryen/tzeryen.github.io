@@ -11,11 +11,19 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/lightbox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
 	<link rel="stylesheet" href="albums.css" >
-	<link rel="stylesheet" href="lightbox.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 </head>
+
+<script>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+</script>
+
 
 <body>
 
@@ -92,26 +100,26 @@
 <div class="photos">
 <div class="row">
 		<div class="column">
-			<a href="https://c2.staticflickr.com/2/1856/43766547334_16e38629a6_o.png" data-lightbox="vancouveralbum">
+			<a href="https://c2.staticflickr.com/2/1856/43766547334_16e38629a6_o.png" data-toggle="lightbox" data-gallery="vancouveralbum">
 			<img src="https://c2.staticflickr.com/2/1856/43766547334_16e38629a6_o.png" style="width:100%; border-radius: 15px"></a>	
-			<a href="https://c2.staticflickr.com/2/1879/43575395155_20ed600d9e_o.png" data-lightbox="vancouveralbum">
+			<a href="https://c2.staticflickr.com/2/1879/43575395155_20ed600d9e_o.png" data-toggle="lightbox" data-gallery="vancouveralbum">
 			<img src="https://c2.staticflickr.com/2/1879/43575395155_20ed600d9e_o.png" style="width:100%; border-radius: 15px"></a>	
 		</div>
 
 		<div class="column">
-			<a href="https://c2.staticflickr.com/2/1870/42675439930_9b88358fc0_o.png" data-lightbox="vancouveralbum">
+			<a href="https://c2.staticflickr.com/2/1870/42675439930_9b88358fc0_o.png" data-toggle="lightbox" data-gallery="vancouveralbum">
 			<img src="https://c2.staticflickr.com/2/1870/42675439930_9b88358fc0_o.png" style="width:100%; border-radius: 15px"></a>	
 		</div>
 
 		<div class="column">
-			<a href="https://c2.staticflickr.com/2/1900/42675438710_95106df470_o.png" data-lightbox="vancouveralbum">
+			<a href="https://c2.staticflickr.com/2/1900/42675438710_95106df470_o.png" data-toggle="lightbox" data-gallery="vancouveralbum">
 			<img src="https://c2.staticflickr.com/2/1900/42675438710_95106df470_o.png" style="width:100%; border-radius: 15px"></a>	
 		</div>
 
 		<div class="column">
-			<a href="https://c2.staticflickr.com/2/1877/44484565411_ed208609ea_o.png" data-lightbox="vancouveralbum">
+			<a href="https://c2.staticflickr.com/2/1877/44484565411_ed208609ea_o.png" data-toggle="lightbox" data-gallery="vancouveralbum">
 			<img src="https://c2.staticflickr.com/2/1877/44484565411_ed208609ea_o.png" style="width:100%; border-radius: 15px"></a>	
-			<a href="https://c2.staticflickr.com/2/1843/44484564811_191796839f_o.png" data-lightbox="vancouveralbum">
+			<a href="https://c2.staticflickr.com/2/1843/44484564811_191796839f_o.png" data-toggle="lightbox" data-gallery="vancouveralbum">
 			<img src="https://c2.staticflickr.com/2/1843/44484564811_191796839f_o.png" style="width:100%; border-radius: 15px"></a>	
 		</div>
 
