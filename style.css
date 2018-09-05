@@ -215,17 +215,14 @@ html, body {
  	max-width: 60%;
 }
 
-.form-group label {
-	font-size: 120%;
-} 
 
-.form-group button {
+.submit {
 	font-size: 120%;
 	background-color: #EE7884;
 	border: none;
 }
 
-.form-group button:hover {
+.submit:hover {
 	background-color: #ED4D5E;
 }
 
